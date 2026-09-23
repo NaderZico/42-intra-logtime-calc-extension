@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="storefront-icon.png" width="128" height="128" alt="42 Intra Logtime Extension Icon">
+  <img src="assets/storefront-icon.png" width="128" height="128" alt="42 Intra Logtime Extension Icon">
 </p>
 
 # 42 Intra Logtime Extension
@@ -49,14 +49,15 @@ If you want to run or test this extension locally in developer mode:
 ## 📁 Repository Structure
 
 ```
-├── manifest.json        # Chrome Extension Manifest V3 configuration
-├── content.js           # Core DOM parser, timeline calculator, and drag-select engine
-├── popup.html           # Extension popup quick-reference guide
-├── icon.png             # 16x16 / 32x32 action icon
-├── icon_large.png       # 128x128 extension icon
-├── storefront-icon.png  # Chrome Web Store storefront icon (128x128)
-├── storefront-icon.svg  # Vector source of storefront icon
-└── README.md            # Documentation & Chrome Web Store link
+├── assets/
+│   ├── icon.png             # 16x16 / 32x32 action icon
+│   ├── icon_large.png       # 128x128 extension icon
+│   ├── storefront-icon.png  # Chrome Web Store storefront icon (128x128)
+│   └── storefront-icon.svg  # Vector source of storefront icon
+├── content.js               # Core DOM parser, timeline calculator, and drag-select engine
+├── manifest.json            # Chrome Extension Manifest V3 configuration
+├── popup.html               # Extension popup quick-reference guide
+└── README.md                # Documentation & Chrome Web Store link
 ```
 
 ---

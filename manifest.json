@@ -5,12 +5,12 @@
   "description": "Enable dynamic logtime calculation directly on the 42 Intra V3 and Legacy interfaces",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon.png"
+    "default_icon": "assets/icon.png"
   },
   "icons": {
-    "16": "icon_large.png",
-    "48": "icon_large.png",
-    "128": "icon_large.png"
+    "16": "assets/icon_large.png",
+    "48": "assets/icon_large.png",
+    "128": "assets/icon_large.png"
   },
   "content_scripts": [
     {
