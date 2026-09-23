@@ -33,7 +33,7 @@ If you want to run or test this extension locally in developer mode:
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/NaderZico/42-Intra-Logtime-Extension.git
+   git clone https://github.com/NaderZico/42-intra-logtime-calc-extension.git
    ```
 2. Open Google Chrome and navigate to `chrome://extensions`.
 3. Enable **Developer mode** using the toggle switch in the top right corner.
