@@ -10,20 +10,20 @@
 
 A lightweight Google Chrome extension that dynamically calculates and displays logtime hours directly on the **42 Intra V3** and **Legacy** profile interfaces.
 
-🔗 **Chrome Web Store Link**: [42 Intra Logtime Hours Calculator](https://chromewebstore.google.com/detail/42-intra-logtime-hours-ca/fhcallakdiljgegkajofpaofknkffplj?authuser=1&hl=en&pli=1)
+**Chrome Web Store Link**: [42 Intra Logtime Hours Calculator](https://chromewebstore.google.com/detail/42-intra-logtime-hours-ca/fhcallakdiljgegkajofpaofknkffplj?authuser=1&hl=en&pli=1)
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Instant Monthly Calculation**: Automatically tallies up your total logtime hours for the active month as soon as you visit your 42 Intra profile.
-- **📅 Interactive Drag-and-Select**: Click and drag across any calendar day cells on the logtime matrix to dynamically calculate custom date range totals.
-- **🔄 Universal Compatibility**: Seamlessly works with both the modern 42 Intra V3 (`profile-v3.intra.42.fr`) and Legacy (`profile.intra.42.fr`, `intra.42.fr`) layouts.
-- **🎨 Native UI Integration**: Features sleek styling, dark mode synergy, and non-intrusive overlays tailored for the 42 Intra design system.
+- **Instant Monthly Calculation**: Automatically tallies up your total logtime hours for the active month as soon as you visit your 42 Intra profile.
+- **Interactive Drag-and-Select**: Click and drag across any calendar day cells on the logtime matrix to dynamically calculate custom date range totals.
+- **Universal Compatibility**: Seamlessly works with both the modern 42 Intra V3 (`profile-v3.intra.42.fr`) and Legacy (`profile.intra.42.fr`, `intra.42.fr`) layouts.
+- **Native UI Integration**: Features sleek styling, dark mode synergy, and non-intrusive overlays tailored for the 42 Intra design system.
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Automatic Total**: Open your [42 Intra Profile](https://profile.intra.42.fr) — your monthly logtime total will display automatically.
 2. **Custom Selection**: **Click and drag** across any sequence of days in the calendar grid to calculate the exact hours spent in that specific date range.
@@ -31,11 +31,11 @@ A lightweight Google Chrome extension that dynamically calculates and displays l
 
 ---
 
-## 🛠️ Local / Developer Installation
+## Local Installation
 
 If you want to run or test this extension locally in developer mode:
 
-1. Clone or download this repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/NaderZico/42-intra-logtime-calc-extension.git
    ```
@@ -46,7 +46,7 @@ If you want to run or test this extension locally in developer mode:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── assets/
@@ -62,6 +62,6 @@ If you want to run or test this extension locally in developer mode:
 
 ---
 
-## 👤 Author
+## Author
 
 Developed by **[Nader Khalil (NaderZico)](https://github.com/NaderZico)**.
