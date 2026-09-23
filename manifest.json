@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "42 Intra Logtime Hours Calculator",
+  "version": "1.41",
+  "description": "Enable dynamic logtime calculation directly on the 42 Intra V3 and Legacy interfaces",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon_large.png",
+    "48": "icon_large.png",
+    "128": "icon_large.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://profile.intra.42.fr/*",
+        "https://profile-v3.intra.42.fr/*",
+        "https://intra.42.fr/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

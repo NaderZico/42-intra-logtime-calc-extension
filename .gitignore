@@ -1,0 +1,13 @@
+# Developer drafts and store uploads
+Gemini_Generated_Image_*.png
+gemini-svg*
+resized-images-2/
+resized-images-2.zip
+*.zip
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 260px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #1e1e24;
+      color: #ffffff;
+      margin: 0;
+      padding: 16px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #3a3a42;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+    }
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      color: #00babc;
+    }
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      background-color: rgba(0, 186, 188, 0.1);
+      color: #00babc;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-weight: 500;
+    }
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      background-color: #00babc;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #00babc;
+    }
+    .instructions {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 12px;
+      color: #a0a0ab;
+      line-height: 1.6;
+    }
+    .instructions li {
+      margin-bottom: 8px;
+    }
+    .instructions strong {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="title">Logtime Calculator</div>
+    <div class="status-badge">
+      <div class="status-dot"></div>
+      Active
+    </div>
+  </div>
+
+  <ul class="instructions">
+    <li>Open your <strong>42 Intra Profile</strong> page to view your total monthly hours automatically.</li>
+    <li><strong>Click and drag</strong> across any calendar days to sum up your own custom dates.</li>
+    <li>Click anywhere else on the page layout to clear your current custom selection.</li>
+  </ul>
+
+</body>
+</html>
